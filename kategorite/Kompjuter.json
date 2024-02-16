@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LENOVO DESKTOP IdeaCentre 5",
+    "id": 1000,
+    "price": 70000
+  },
+  {
+    "id": 1001,
+    "name": "ASUS DESKTOP Strix G15CF-712700074W",
+    "price": 150000
+  },
+  {
+    "id": 1002,
+    "name": "HP DESKTOP OMEN GT15-0009NL",
+    "price": 160000
+  },
+  {
+    "id": 1003,
+    "name": "PC HP 29G4 MT 23H44EA",
+    "price": 85000
+  },
+  {
+    "id": 1004,
+    "name": "MSI DESKTOP MPG Infinite X2",
+    "price": 95000
+  },
+  {
+    "id": 1005,
+    "name": "ACER DESKTOP ASPIRE XC XC-1760",
+    "price": 75000
+  },
+  {
+    "id": 1006,
+    "name": "LENOVO DESKTOP IdeaCentre 4",
+    "price": 50000
+  }
+]

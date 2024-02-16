@@ -1,0 +1,401 @@
+/* imazhi sfond per cdo katregori te stellar*/
+.imazh-sfond {
+    display: flex;
+    position: relative;
+    top: 0px;
+    margin-bottom: 10px;
+    background-color: #eceaff;
+    padding: 15px 10px 26px 10px;
+}
+
+.img-sfond img {
+    width: 700px;
+    height: 300px;
+}
+
+.sfond-container {
+    margin-left: 160px;
+    transform: translate(7%);
+    height: 300px;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid rgb(109, 109, 109);
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+}
+
+.sfond-container p {
+    max-width: 380px;
+    margin: 0 auto;
+    justify-content: center;
+    line-height: 30px;
+    padding: 5px;
+}
+
+.sfond-container h2 {
+    padding: 15px;
+    color: rgb(207, 42, 42);
+    font-weight: bold;
+}
+
+/* Produktet e teos */
+table,
+td {
+    border: none;
+}
+
+tr {
+    text-align: center;
+}
+
+td:nth-child(2) {
+    width: 1100px;
+    height: max-content;
+    vertical-align: top;
+}
+
+td:nth-child(1) {
+    width: 400px;
+    vertical-align: top;
+
+}
+
+td:nth-child(1)>div {
+    background: #dfe2e7;
+    height: 1080px;
+    /* Adjust this value to your desired height */
+    padding-top: 25px;
+}
+
+td:nth-child(2)>div {
+    padding-top: 0;
+    /* Reset the padding-top in the second td */
+}
+
+
+tr .produkt {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    padding: 70px 10px 5px 10px;
+    width: 221px;
+    height: 369px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0px 30px 30px;
+}
+
+.produkt .perButonat .shtoNeShporte i {
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+}
+
+.produkt .perButonat .shtoNeShporte {
+    position: absolute;
+    bottom: 20px;
+    left: 59%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.produkt .perButonat button .shtoNeShporte {
+    flex-grow: 1;
+}
+
+.produkt .perButonat .shikoMeTeper {
+    position: absolute;
+    top: 266px;
+    left: 25%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.produkt .perButonat button .shikoMeTeper {
+    flex-grow: 1;
+}
+
+/*
+img:hover {
+    filter: brightness(50%);
+
+}
+*/
+.produkt p {
+    position: absolute;
+    color: rgb(0, 0, 92);
+    text-align: center;
+    top: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.produkt p1 {
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    left: 5%;
+    right: 5%;
+    background: #fff2f2;
+    top: 235px;
+}
+
+td:nth-child(1) #kerko input[type="text"] {
+    width: 270px;
+    height: 25px;
+    border-radius: 18px 0px 0 18px;
+    border: 1px solid #005a77;
+}
+
+td:nth-child(1) #kerko #searchButton {
+    top: 0;
+    right: 0;
+    border-radius: 0px 18px 18px 0px;
+    background-color: rgb(192, 0, 0);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+
+td:nth-child(1) #kerko #searchButton:hover {
+    background: red;
+}
+
+td:nth-child(1) input[type="number"] {
+    margin: 25px 0px 0px 0px;
+    padding: 4px;
+}
+
+td:nth-child(1) #filterButton {
+    margin: 25px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #a1c2cd;
+    color: #004d67;
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: transform 0.3s;
+}
+
+.imazhProdukti:hover {
+    transform: scale(1.1);
+}
+
+.shikoMeTeper {
+    color: #005a77;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 2px 0px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.shikoMeTeper:hover {
+    color: rgb(248, 86, 41);
+}
+
+.shtoNeShporte {
+    background-color: #008cba;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shtoNeShporte:hover {
+    background-color: #ffc720;
+}
+
+.shtoNeShporte:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#kategori-titull {
+    color: #127a17;
+    margin: 10px 0px;
+}
+
+.linkKategorie {
+    width: 250px;
+    padding: 10px;
+    color: #4d4d4d;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+}
+
+.linkKategorie:hover {
+    background: #bababa;
+    color: #004359;
+}
+
+
+
+/*table,
+td {
+    border: 1px solid red;
+}
+
+tr {
+    height: 100px;
+    text-align: center;
+
+}
+
+td:nth-child(2) {
+    width: 1100px;
+}
+
+td:nth-child(1) {
+    width: 400px;
+
+}
+
+
+
+tr .produkt {
+    border: 1px solid #ccc;
+    padding: 7px 10px 5px 10px;
+    float: left;
+    width: 221px;
+    height: 300px;
+    display: inline;
+    margin: 30px 0px 0px 30px;
+}
+
+tr .perButonat {
+    display: flex;
+   
+}
+
+td:nth-child(1) #kerko input[type="text"] {
+    width: 270px;
+    height: 25px;
+    border-radius: 18px 0px 0 18px;
+    border: 1px solid #005a77;
+}
+
+td:nth-child(1) #kerko #searchButton {
+    top: 0;
+    right: 0;
+    border-radius: 0px 18px 18px 0px;
+    background-color: rgb(192, 0, 0);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+
+td:nth-child(1) #kerko #searchButton:hover {
+    background: red;
+}
+
+td:nth-child(1) input[type="number"] {
+    float: center;
+    margin: 25px 0px 0px 0px;
+    padding: 4px;
+}
+
+
+td:nth-child(1) #filterButton {
+    margin: 25px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background: #a1c2cd;
+    color: #004d67;
+    cursor: pointer;
+    border: none;
+}
+
+img {
+    width: 200px;
+    height: 140px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+
+.imazhProdukti {
+    max-width: 200px;
+    height: 140px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.imazhProdukti:hover {
+    transform: scale(1.1);
+}
+
+.shikoMeTeper {
+    color: #005a77;
+    padding: 5px 4px;
+    margin: 5px 0px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.shtoNeShporte {
+    background-color: #008cba;
+    color: #fff;
+    padding: 5px 4px;
+    margin: 5px 29px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shtoNeShporte:hover {
+    background-color: #005a77;
+}
+
+.shtoNeShporte {
+    background-color: #4CAF50;
+}
+
+
+.shtoNeShporte:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#kategori-titull {
+    color: #4CAF50;
+    margin: 10px 0px;
+}
+
+.linkKategorie {
+
+    width: 250px;
+    padding: 10px;
+    color: #3b3b3b;
+    text-decoration: none;
+    margin: auto;
+    display: flex;
+}
+
+.linkKategorie:hover {
+    background: #ccc;
+    color: #008cba;
+}
+*/
